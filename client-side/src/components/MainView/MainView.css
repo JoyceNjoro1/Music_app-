@@ -1,0 +1,64 @@
+/* main.view.css */
+
+/* General styling for the main view */
+.main-view {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header title styling */
+  .main-view-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the different list views */
+  .album-list,
+  .artist-list,
+  .browse-view,
+  .song-list {
+    margin-top: 20px;
+  }
+  
+  /* Example styling for AlbumList */
+  .album-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  /* Example styling for ArtistList */
+  .artist-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Example styling for BrowseView */
+  .browse-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  /* Example styling for SongList */
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Buttons for audio control */
+  .audio-control-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  .audio-control-button:hover {
+    background-color: #45a049;
+  }
